@@ -1,0 +1,16 @@
+{
+  "name": "wa-pairing-code",
+  "version": "1.0.0",
+  "description": "WhatsApp Pairing Code Generator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysocket/baileys": "^6.6.0",
+    "express": "^4.19.2",
+    "pino": "^9.0.0"
+  }
+}
+
