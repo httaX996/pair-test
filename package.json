@@ -1,12 +1,13 @@
 {
-  "name": "wa-pairing-code",
-  "version": "1.0.0",
-  "description": "WhatsApp Pairing Code Generator",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node index.js"
-  },
+"name": "web-pair",
+    "version": "0.0.1",
+    "description": "A multi functional whatsapp bot Web paircode.",
+    "main": "index.js",
+    "scripts": {
+      "start": "pm2 start index.js --deep-monitoring --attach --name ck",
+      "stop": "pm2 stop ck",
+     "restart": "pm2 restart ck"
+    },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:amiudmodz",
     "express": "^4.19.2",
