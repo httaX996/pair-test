@@ -8,9 +8,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysocket/baileys": "^6.6.0",
+    "@whiskeysocket/baileys": "latest",
     "express": "^4.19.2",
     "pino": "^9.0.0"
   }
 }
-
