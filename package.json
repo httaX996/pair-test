@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysocket/baileys": "latest",
+    "@whiskeysockets/baileys": "npm:amiudmodz",
     "express": "^4.19.2",
     "pino": "^9.0.0"
   }
